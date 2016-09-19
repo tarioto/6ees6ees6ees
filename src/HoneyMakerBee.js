@@ -1,4 +1,4 @@
-import Bee from './Bee'
+import Bee from './Bee';
 
 class HoneyMakerBee extends Bee {
   constructor () {
@@ -7,7 +7,7 @@ class HoneyMakerBee extends Bee {
     this.job = 'make honey';
     this.honeyPot = 0;
   }
-  
+
   makeHoney () {
     this.honeyPot++;
   }
